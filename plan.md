@@ -185,8 +185,6 @@ Los archivos son cifrados en el móvil con una clave única (AES-256-CBC). El ar
 
 **ChronoDrop** aspira a convertirse en la cápsula emocional más confiable del ecosistema digital. Su infraestructura basada en Firebase y Google Cloud, combinada con cifrado en cliente, garantiza longevidad, confidencialidad y accesibilidad multi
 
-
-
 src/
 ├── components/
 │   └── ui/
