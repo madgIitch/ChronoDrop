@@ -128,6 +128,53 @@ Los archivos son cifrados en el móvil con una clave única (AES-256-CBC). El ar
 
 ---
 
+## 🗓️ Planificación de Sprints (6 Sprints – 2 semanas c/u)
+
+### Sprint 1: Preparación del entorno y prototipo de autenticación
+
+* Configuración de repositorios, CI/CD
+* Setup de Firebase y GCP
+* Estructura base de la app en React Native
+* Implementación básica de registro/login con Firebase Auth
+* Mockups iniciales de UI
+
+### Sprint 2: Creación de cápsulas y subida cifrada
+
+* Formulario de creación (texto, imágenes, video, audio)
+* Implementación de cifrado AES-256 en el cliente
+* Subida a Firebase Storage y guardado de metadata en Firestore
+* Validaciones de tamaño, formato y expiración
+
+### Sprint 3: Backend y entrega programada
+
+* API REST con Node.js para gestionar entregas programadas
+* Cloud Function para ejecutar envíos diferidos
+* Programación de notificaciones vía FCM y emails
+* Pruebas de envío de cápsulas a destino
+
+### Sprint 4: Visualización y seguimiento de cápsulas
+
+* Pantalla de cápsulas activas, pasadas y próximas
+* Cuenta regresiva y estado de cada cápsula
+* Detalles y previsualización protegida (sin descifrado prematuro)
+* Enlace para descarga segura en apertura
+
+### Sprint 5: Seguridad y privacidad avanzada
+
+* Integración de hash SHA-256 por archivo
+* Protección con contraseña o huella (local auth)
+* Reglas de Firestore y Storage
+* Políticas de expiración de claves y tokens JWT
+
+### Sprint 6: Refinamiento y publicación
+
+* Pruebas E2E (móvil ↔ backend ↔ Firebase)
+* Corrección de bugs y test de rendimiento
+* Deploy en stores (TestFlight, Google Play Internal)
+* Documentación técnica y legal (Términos, Privacidad, GDPR)
+
+---
+
 ## 📄 Licencias y Cumplimiento
 
 * Cumple con **GDPR**, **LOPDGDD** y políticas de privacidad internacionales
@@ -136,4 +183,4 @@ Los archivos son cifrados en el móvil con una clave única (AES-256-CBC). El ar
 
 ---
 
-**ChronoDrop** aspira a convertirse en la cápsula emocional más confiable del ecosistema digital. Su infraestructura basada en Firebase y Google Cloud, combinada con cifrado en cliente, garantiza longevidad, confidencialidad y accesibilidad multiplataforma. El futuro de tus recuerdos empieza hoy.
+**ChronoDrop** aspira a convertirse en la cápsula emocional más confiable del ecosistema digital. Su infraestructura basada en Firebase y Google Cloud, combinada con cifrado en cliente, garantiza longevidad, confidencialidad y accesibilidad multi
