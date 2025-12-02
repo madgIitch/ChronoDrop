@@ -184,3 +184,36 @@ Los archivos son cifrados en el móvil con una clave única (AES-256-CBC). El ar
 ---
 
 **ChronoDrop** aspira a convertirse en la cápsula emocional más confiable del ecosistema digital. Su infraestructura basada en Firebase y Google Cloud, combinada con cifrado en cliente, garantiza longevidad, confidencialidad y accesibilidad multi
+
+
+
+src/
+├── components/
+│   └── ui/
+│       ├── Button.tsx
+│       ├── TextInput.tsx
+│       └── ScreenContainer.tsx
+├── screens/
+│   ├── auth/
+│   │   ├── LoginScreen.tsx
+│   │   └── RegisterScreen.tsx
+│   └── home/
+│       └── HomeScreen.tsx
+├── navigation/
+│   ├── AuthStack.tsx
+│   ├── AppStack.tsx
+│   └── RootNavigator.tsx
+├── theme/
+│   ├── colors.ts
+│   ├── spacing.ts
+│   ├── typography.ts
+│   └── index.ts
+├── services/
+│   ├── firebase.ts
+│   └── auth.ts
+├── types/
+│   └── auth.ts
+├── utils/
+│   └── validators.ts
+└── assets/
+    └── (logo, ilustraciones, etc.)
